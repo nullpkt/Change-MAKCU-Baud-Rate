@@ -5,7 +5,7 @@ This is a little tool i threw to change the baud rate from the default 115200 to
 I've included a precompiled .exe for convenience so you don't need to open CMD and run the script manually and blah blah blah everytime. Just double-click and you're good to go.
 
 ### Don't trust random .exe files?
-You can run the script manually or you can use pyinstaller to compile the script to an exe your self.
+You can run the script manually if you'd like or you can use pyinstaller to compile the script to an exe your self.
 
 ### Commands to run the script manually
 ``` cmd
