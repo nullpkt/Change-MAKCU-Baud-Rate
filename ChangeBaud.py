@@ -42,10 +42,10 @@ def main():
         # Connect To The MAKCU. Using The Default Baud Rate.   
         MakcuConn = Connect_Makcu(115200, ComPort)
         
-        # Send the needed bytes to change the baud rate to 4m.
         Erase_Print(f"Sending Bytes To Change Baud Rate...")
         time.sleep(3)
         
+        # Send the needed bytes to change the baud rate to 4m.
         MakcuConn.write(bytearray([0xDE, 0xAD, 0x05, 0x00, 0xA5, 0x00, 0x09, 0x3D, 0x00]))
         MakcuConn.close()           
         time.sleep(0.1)
